@@ -6,7 +6,7 @@ class UiRunner {
     
     @Karate.Test
     Karate testUi() {
-        return Karate.run("classpath:ui/switchPage.feature");
+        return Karate.run("classpath:ui/test.feature");
     }
     
 }
